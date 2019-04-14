@@ -1,0 +1,9 @@
+{
+  "name": "treejer-mail-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amovah/treejer-mail-template.git",
+  "author": "Ali Movahedi <ali_movahedi@aol.com>",
+  "license": "MIT",
+  "private": true
+}
