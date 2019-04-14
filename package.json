@@ -5,5 +5,18 @@
   "repository": "git@github.com:amovah/treejer-mail-template.git",
   "author": "Ali Movahedi <ali_movahedi@aol.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "build:dev": "./node_modules/.bin/gulp dev",
+    "build:prod": "./node_modules/.bin/gulp preprod;  ./node_modules/.bin/gulp prod;"
+  },
+  "devDependencies": {
+    "del": "^4.1.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-cli": "^2.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-replace": "^1.0.0"
+  }
 }
