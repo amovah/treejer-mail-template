@@ -6,7 +6,9 @@
   "author": "Ali Movahedi <ali_movahedi@aol.com>",
   "license": "MIT",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
   "scripts": {
     "build:dev": "./node_modules/.bin/gulp dev",
     "build:prod": "./node_modules/.bin/gulp preprod;  ./node_modules/.bin/gulp prod;"
